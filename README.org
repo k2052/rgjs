@@ -1,0 +1,25 @@
+* rgjs
+
+A wrapper around ripgrep mostly for learning Ink
+
+** Installation
+
+Use good old npm:
+
+#+begin_src sh
+npm install -g rgjs
+#+end_src
+
+Or yarn:
+
+#+begin_src sh
+yarn global add rgjs
+#+end_src
+
+** Usage
+
+Pass query to rgjs like this:
+
+#+begin_src sh
+rgjs '":cheat:" -g "*.org" ~/everything'
+#+end_src

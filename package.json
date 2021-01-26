@@ -1,0 +1,26 @@
+{
+	"name": "rgjs",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": "./build/cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"dev": "pastel dev",
+		"build": "pastel build",
+		"prepare": "pastel build"
+	},
+	"files": [
+		"build"
+	],
+	"dependencies": {
+		"ink": "^3.0.4",
+		"ink-fuzzy-select": "^1.0.2",
+		"open-editor": "^2.0.1",
+		"open-in-editor": "^2.2.0",
+		"pastel": "^1.1.1",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1"
+	}
+}
